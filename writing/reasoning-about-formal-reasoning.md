@@ -42,5 +42,5 @@ Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE)
 
 ## How is formal methods
 
-Programming languages: Coq, Agda, Lean, Dafny, Cedar
+Programming languages: Coq, Agda, Lean, Dafny, Cedar, TLA+
 
