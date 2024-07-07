@@ -40,6 +40,8 @@ Medical devices, nuclear power plants, aviation
 
 Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE)
 
+Hardware verification (this is outside of formal methods in software, but it is very prevalent in industry)
+
 ## How is formal methods
 
 Programming languages: Coq, Agda, Lean, Dafny, Cedar, TLA+
