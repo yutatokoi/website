@@ -36,11 +36,11 @@ Formalised specifications may not be 100% replicated in the production version. 
 
 ## Where is formal methods
 
-Medical devices, nuclear power plants
+Medical devices, nuclear power plants, aviation
 
 Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE)
 
 ## How is formal methods
 
-Programming languages: Coq, Agda, Lean
+Programming languages: Coq, Agda, Lean, Dafny, Cedar
 
