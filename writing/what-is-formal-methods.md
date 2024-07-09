@@ -2,9 +2,9 @@
 publishDate: "2024-07-05"
 ---
 
-# Reasoning About Formal Reasoning in Software
+# Formal Methods
 
-At this point, my understanding of formal reasoning in software developemnt is very fuzzy. So much so, I don't understand when to appropriately use "formal reasoning", "formal methods", "formal verification", or what the exact differences between them are.
+At this point, my understanding of formal methods in software developemnt is very fuzzy. So much so, I don't understand when to appropriately use "formal methods" and "formal verification", or what the exact differences between them are.
 
 This is my attempt to organise this fuzzy understanding into something more concrete, as well as a record to reflect on in the futuere. This is a topic that has captivated my attention as of late, and is something I will continue diving deeper into. In the future, I hope to look back on this and be able to point out inaccuracies and holes in my understanding.
 
