@@ -38,7 +38,7 @@ Formalised specifications may not be 100% replicated in the production version. 
 
 Medical devices, nuclear power plants, aviation
 
-Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE)
+Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook
 
 Hardware verification (this is outside of formal methods in software, but it is very prevalent in industry)
 
