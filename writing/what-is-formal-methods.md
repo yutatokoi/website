@@ -1,5 +1,5 @@
 ---
-publishDate: "2024-07-19"
+publishDate: "2024-07-20"
 ---
 
 # Formal Methods
@@ -38,11 +38,11 @@ Formalised specifications may not be 100% replicated in the production version. 
 
 Medical devices, nuclear power plants, aviation
 
-Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook
+Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook, Google, Capgemini Engineering
 
 Hardware verification (this is outside of formal methods in software, but it is very prevalent in industry)
 
 ## How is formal methods
 
-Programming languages: Coq, Agda, Lean, Dafny, Cedar, TLA+
+Programming languages: Coq, Agda, Lean, Dafny, Cedar, TLA+, SPARK
 
