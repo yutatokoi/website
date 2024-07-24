@@ -1,5 +1,5 @@
 ---
-publishDate: "2024-07-19"
+publishDate: "2024-07-24"
 ---
 
 # Formal Methods
@@ -39,6 +39,8 @@ Formalised specifications may not be 100% replicated in the production version. 
 Medical devices, nuclear power plants, aviation
 
 Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook
+
+List of industry applications of formal methods: <https://github.com/ligurio/practical-fm?tab=readme-ov-file>
 
 Hardware verification (this is outside of formal methods in software, but it is very prevalent in industry)
 
