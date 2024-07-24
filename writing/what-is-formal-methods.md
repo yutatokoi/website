@@ -38,7 +38,7 @@ Formalised specifications may not be 100% replicated in the production version. 
 
 Medical devices, nuclear power plants, aviation
 
-Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook
+Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook, Google, Capgemini Engineering
 
 List of industry applications of formal methods: <https://github.com/ligurio/practical-fm?tab=readme-ov-file>
 Other resources: <https://github.com/awesomo4000/awesome-provable>
@@ -48,5 +48,5 @@ Hardware verification (this is outside of formal methods in software, but it is 
 
 ## How is formal methods
 
-Programming languages: Coq, Agda, Lean, Dafny, Cedar, TLA+
+Programming languages: Coq, Agda, Lean, Dafny, Cedar, TLA+, SPARK
 
