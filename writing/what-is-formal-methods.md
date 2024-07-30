@@ -1,5 +1,5 @@
 ---
-publishDate: "2024-07-24"
+publishDate: "2024-07-30"
 ---
 
 # Formal Methods
@@ -38,11 +38,11 @@ Formalised specifications may not be 100% replicated in the production version. 
 
 Medical devices, nuclear power plants, aviation
 
-Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook, Google, Capgemini Engineering
+Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook, Google, Capgemini Engineering, [Pi Squared](https://pi2.network/)
 
-List of industry applications of formal methods: <https://github.com/ligurio/practical-fm?tab=readme-ov-file>
-Other resources: <https://github.com/awesomo4000/awesome-provable>
-More resources and industry applications: <https://github.com/SatyendraBanjare/plt-formal-methods-resources>
+- List of industry applications of formal methods: <https://github.com/ligurio/practical-fm?tab=readme-ov-file>
+- Other resources: <https://github.com/awesomo4000/awesome-provable>
+- More resources and industry applications: <https://github.com/SatyendraBanjare/plt-formal-methods-resources>
 
 Hardware verification (this is outside of formal methods in software, but it is very prevalent in industry)
 
