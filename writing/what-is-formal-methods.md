@@ -36,7 +36,7 @@ Formalised specifications may not be 100% replicated in the production version. 
 
 ## Where is formal methods
 
-Medical devices, nuclear power plants, aviation
+Medical devices, nuclear power plants, aviation, cloud computing, blockchain
 
 Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook, Google, Capgemini Engineering, [Pi Squared](https://pi2.network/)
 
