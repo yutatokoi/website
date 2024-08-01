@@ -1,5 +1,5 @@
 ---
-publishDate: "2024-07-30"
+publishDate: "2024-08-01"
 ---
 
 # Formal Methods
@@ -40,13 +40,22 @@ Medical devices, nuclear power plants, aviation, cloud computing, blockchain
 
 Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook, Google, Capgemini Engineering, [Pi Squared](https://pi2.network/)
 
-- List of industry applications of formal methods: <https://github.com/ligurio/practical-fm?tab=readme-ov-file>
-- Other resources: <https://github.com/awesomo4000/awesome-provable>
-- More resources and industry applications: <https://github.com/SatyendraBanjare/plt-formal-methods-resources>
-
 Hardware verification (this is outside of formal methods in software, but it is very prevalent in industry)
 
 ## How is formal methods
 
-Programming languages: Coq, Agda, Lean, Dafny, Cedar, TLA+, SPARK
+Coq, Agda, Lean, Dafny, Cedar, TLA+, SPARK, Aloy, Spin, P, Z, HOL...
 
+## Formal methods resources
+
+- [Software Foundations](https://softwarefoundations.cis.upenn.edu/)
+  - Foundational series of 6 textbooks
+  - All exercises are verified via Coq
+- [Formal Methods of Software Design](http://www.cs.utoronto.ca/~hehner/FMSD/)
+  - Course taught at University of Toronto
+  - Lecture videos, slides, exercises, textbook are freely available
+- List of industry applications of formal methods: <https://github.com/ligurio/practical-fm?tab=readme-ov-file>
+- Other resources: <https://github.com/awesomo4000/awesome-provable>
+- More resources and industry applications: <https://github.com/SatyendraBanjare/plt-formal-methods-resources>
+
+ 
