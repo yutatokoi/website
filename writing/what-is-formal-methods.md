@@ -1,5 +1,5 @@
 ---
-publishDate: "2024-08-01"
+publishDate: "2024-08-03"
 ---
 
 # Formal Methods
@@ -36,9 +36,9 @@ Formalised specifications may not be 100% replicated in the production version. 
 
 ## Where is formal methods
 
-Medical devices, nuclear power plants, aviation, cloud computing, blockchain
+Medical devices, nuclear power plants, aviation, cloud computing, blockchain, cryptography
 
-Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook, Google, Capgemini Engineering, [Pi Squared](https://pi2.network/)
+Amazon Web Services (Automated Reasoning Group), Microsoft (RiSE), Facebook, Google, Capgemini Engineering, [Pi Squared](https://pi2.network/), [galois](https://galois.com/)
 
 Hardware verification (this is outside of formal methods in software, but it is very prevalent in industry)
 
