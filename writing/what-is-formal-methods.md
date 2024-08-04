@@ -1,5 +1,5 @@
 ---
-publishDate: "2024-08-03"
+publishDate: "2024-08-04"
 ---
 
 # Formal Methods
@@ -51,6 +51,7 @@ Coq, Agda, Lean, Dafny, Cedar, TLA+, SPARK, Aloy, Spin, P, Z, HOL...
 - [Software Foundations](https://softwarefoundations.cis.upenn.edu/)
   - Foundational series of 6 textbooks
   - All exercises are verified via Coq
+  - Video lectures to accompany "Logical Foundations": <https://youtube.com/playlist?list=PLre5AT9JnKShFK9l9HYzkZugkJSsXioFs&si=GuunzZ7sGpTel365>
 - [Formal Methods of Software Design](http://www.cs.utoronto.ca/~hehner/FMSD/)
   - Course taught at University of Toronto
   - Lecture videos, slides, exercises, textbook are freely available
