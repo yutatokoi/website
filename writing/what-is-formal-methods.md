@@ -1,5 +1,6 @@
 ---
-publishDate: "2024-08-04"
+publish_date: "2024-07-06"
+update_date: "2024-08-05"
 ---
 
 # Formal Methods
