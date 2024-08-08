@@ -1,6 +1,6 @@
 ---
 publish_date: "2024-07-06"
-update_date: "2024-08-05"
+update_date: "2024-08-08"
 ---
 
 # Formal Methods
@@ -56,6 +56,7 @@ Coq, Agda, Lean, Dafny, Cedar, TLA+, SPARK, Aloy, Spin, P, Z, HOL...
 - [Formal Methods of Software Design](http://www.cs.utoronto.ca/~hehner/FMSD/)
   - Course taught at University of Toronto
   - Lecture videos, slides, exercises, textbook are freely available
+- [Stack Exchange for proof assistants](https://proofassistants.stackexchange.com/)
 - List of industry applications of formal methods: <https://github.com/ligurio/practical-fm?tab=readme-ov-file>
 - Other resources: <https://github.com/awesomo4000/awesome-provable>
 - More resources and industry applications: <https://github.com/SatyendraBanjare/plt-formal-methods-resources>
