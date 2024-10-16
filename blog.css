@@ -9,6 +9,8 @@ body {
     max-width: 700px;
     margin: 0 auto;
     padding-top: 20px;
+    color: rgba(0,0,0,0.7);
+    background-color: #f7f4ed;
 }
 
 h1 {
@@ -21,7 +23,7 @@ ul li{
 }
 
 a:link, a:visited {
-    color: blue;
+    color: rgba(0,0,0,0.7);
 }
 
 @media screen and (min-width: 480px) {
