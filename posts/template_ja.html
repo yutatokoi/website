@@ -14,6 +14,11 @@
     <a href="../index_ja.html">ホーム</a> | <a href="../blog_ja.html">ブログ</a> | <a href="../index.html">English</a>
 </header>
 <body>
+    <!-- Display the uploadDate -->
+    <p>$uploadDate$ 
+    <!-- Conditionally display the updateDate if it's defined -->
+    $if(updateDate)$ | (Updated: $updateDate$)$endif$
+    </p>
     $body$
 </body>
 </html>
