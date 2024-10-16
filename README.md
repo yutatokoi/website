@@ -1,4 +1,3 @@
 # Personal Website
 
-Written in pure HTML <3
-
+No JavaScript was written in the process of making this website.
