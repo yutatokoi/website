@@ -3,7 +3,7 @@ import re
 from datetime import datetime
 
 # The directory to check for the latest modification
-directory = "./"
+directory = "."
 
 # Get the latest modification time across all files and subdirectories
 latest_modification_time = max(
