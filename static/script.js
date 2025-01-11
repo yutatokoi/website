@@ -1,2 +1,4 @@
-const lastUpdateDateSpan = document.getElementById("lastUpdateDate");
-lastUpdateDateSpan.textContent = new Date().toISOString();
+// Automatically update current year of footer
+const yearSpan = document.getElementById("year");
+yearSpan.textContent = new Date().getFullYear();
+

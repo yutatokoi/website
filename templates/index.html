@@ -3,53 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website of Yuta Tokoi">
-    <meta name="keywords" content="Yuta Tokoi">
-    <meta name="author" content="Yuta Tokoi">
-    <title>Yuta Tokoi</title>
-    <link rel="stylesheet" href="/script/styles.css">
+    <title>osoi.news</title>
+    <link rel="stylesheet" href="../static/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <div id="name">Yuta Tokoi</div>
-    </div>
+    <header>
+        <div class="container">
+            <h2 class="name">
+                <a href="index.html">osoi.news</a>
+            </h2>
+        </div>
+    </header>
 
-    <p style="clear:both">
-        My interests in programming range from web to security, and formal methods (honestly I enjoy all my computer science courses so far).
-    </p>
-
-    <h1>Projects</h1>
-    <ul>
-        <li>
-            <a href="https://github.com/yutatokoi/1-D-Cellular-Automaton" target="_blank">1-D Cellular Automaton</a>
-            – Simulates an elementary cellular automaton using linked lists in C.
-        </li>
-        <li>
-            <a href="https://github.com/yutatokoi/tsv-parser-c" target="_blank">TSV Parser</a>
-            – C program to parse through a TSV Parser and print out a tabulated report.
-        </li>
-        <li>
-            <a href="https://github.com/yutatokoi/ttt.py" target="_blank">ttt.py</a>
-            – a tic-tac-toe playing computer program running in the terminal. It uses the Minimax algorithm, and has beaten my tutor in my programming course. Implemented in Python.
-        </li>
-    </ul>
-
-    <h1>Links</h1>
-        <a href="https://github.com/yutatokoi">GitHub</a> | <a href="https://sizu.me/yutatokoi">sizu.me</a> | <a href="https://zenn.dev/yutatokoi">zenn.dev</a> | Email: yutatokoi@proton.me
-
-    <p> Last updated: 2025-01-09 </p>
+    <main>
+        <div class="container">
+            <h3>2024-12-28までの一週間のニュース（毎週土曜日に更新）</h3>
+        </div>
+    </main>
 
     <footer>
         <div class="container">
-            <p>
-                &copy; <span id="lastUpdateDate"></span> Yuta Tokoi
-            </p>
+            <p>&copy; <span id="year"></span> Yuta Tokoi</p>
         </div>
     </footer>
 
-    <script src="/static/script.js"></script>
+    <script src="../static/script.js"></script>
 </body>
 </html>
+
