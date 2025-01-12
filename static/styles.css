@@ -53,10 +53,6 @@ header h1.name a:link {
     text-decoration: none;
 }
 
-.nav {
-    /* gap: 1rem; */
-}
-
 .nav ul {
     list-style: none;
     margin: 0;
@@ -64,7 +60,7 @@ header h1.name a:link {
 }
 
 .nav li {
-    display: inline;
+    display: inline-block;
     padding-right: 1rem;
 }
 
@@ -73,6 +69,10 @@ header h1.name a:link {
     color: var(--body-link);
     font-weight: 600;
     transition: color 0.3s;
+}
+
+.nav li a.current {
+    text-decoration: underline;
 }
 
 .nav li a:hover {

@@ -1,4 +1,10 @@
-// Automatically update current year of footer
-const yearSpan = document.getElementById("year");
-yearSpan.textContent = new Date().getFullYear();
+document.addEventListener("DOMContentLoaded", () => {
+    const links = document.querySelectorAll("#header-nav a");
+    const currentURL = window.location.pathname;
 
+    links.forEach(link => {
+        if (link.getAttribute("href") === currentURL) {
+            link.classList.add("current");
+        }
+    });
+});
