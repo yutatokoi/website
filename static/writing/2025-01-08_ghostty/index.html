@@ -1,0 +1,78 @@
+<p>自分がブラウザの次に一番使うのがターミナルだ。せっかくなら好みの見た目と使い心地にしたい。そう思い、人生で初めてターミナルをカスタマイズしてみた。</p>
+
+<p><img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3911823/f71e0334-09f8-698e-704e-6f452fb0cc14.png" alt="01-neofetch.png" /></p>
+
+<p>構成：
+- マシン：M1 Pro
+- OS：macOS 15.1.1 (24B91)
+- パッケージマネージャ：Homebrew 4.4.13
+- シェル：zsh 5.9
+- ターミナル：Ghostty 1.0.0 stable
+- フォント：BlexMono Nerd Font
+- Theme：ohmyzsh</p>
+
+<p>事前知識：
+- Homebrewの使い方
+- シェル、ターミナルとは何か</p>
+
+<h2>ターミナルエミュレータ</h2>
+
+<p>macOSのデフォルトのターミナルだとカスタマイズがしづらいので、ターミナルエミュレータを使う。まだ開発がサイドプロジェクトとして始まって<a href="https://mitchellh.com/writing/ghostty-devlog-001">3年ほど</a>だが、1.0.0が最近リリースされたのでGhosttyを選んだ。ちなみに開発者のMitchell HashimotoはTerraformなどを手掛けるHashicorpの創業者だ。</p>
+
+<p>GhosttyのインストールはHomebrewで普通にできる。</p>
+
+<p><code>zsh
+brew install --cask ghostty
+</code></p>
+
+<h2>フォント</h2>
+
+<p><a href="https://www.nerdfonts.com/">Nerd Font</a>というシリーズのフォントがあり、これらにはアイコンが含まれているため、後ほど紹介するOh My Zshや、LazyVimで綺麗にアイコン達が表示されるようになる。</p>
+
+<p>BlexMono Nerd Fontは一覧を眺めてパッと見気に入ったものを選んだ。</p>
+
+<p>macOSでのNerd Fontのインストールはとても簡単で、Homebrewのコマンドひとつで済む。</p>
+
+<p><code>zsh
+brew install --cask font-blex-mono-nerd-font
+</code></p>
+
+<h2>Ghosttyの設定</h2>
+
+<p>現在Ghosttyの設定をmacOSでするには<code>CMD + ,</code>で出てくるTextEditで書くのが一番便利。そこに一つ一つの設定を書き込んでいく感じだ。</p>
+
+<p>自分の設定はこうなっている。</p>
+
+<p><code>
+background-blur-radius = 20
+background-opacity = 0.9
+font-family = BlexMono Nerd Font Mono
+font-size = 16
+mouse-hide-while-typing = true
+theme = Ryuuko
+window-decoration = true
+</code></p>
+
+<p>このRyuukoというカラーテーマは初めて見たが、とても気に入った。ターミナルから直接カラーテーマのプレビューを表示できるのもGhosttyの良いところだ。</p>
+
+<p><code>ghostty +list-themes</code>でプレビューできる。</p>
+
+<p><img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3911823/b487c87f-c445-638e-093f-33b8b183149d.png" alt="02-list-themes.png" /></p>
+
+<p>設定が終わり、Ghosttyを再起動したら変更されているはずだ。</p>
+
+<h2>Theme</h2>
+
+<p>Oh My Zshではプラグインなどでシェルの使用感をカスタマイズできるらしいが、今の自分には必要ないと感じている。これはほとんど画像の赤枠にあるところのために使っている。</p>
+
+<p><img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3911823/a6253c7f-4c1f-058b-864d-67517c3045d0.png" alt="03-ohmyzsh.png" /></p>
+
+<p>Oh My Zshをインストールすると既存の<code>.zshrc</code>が上書きされるが、インストール前のものは<code>.zshrc.pre-oh-my-zsh</code>に保存されている。</p>
+
+<h2>まとめ</h2>
+
+<p>まだ開発途中のGhosttyを基にしたカスタマイズだが、十分早いし、今の所トラブルはない。</p>
+
+<p>今までエディタは主にVimで、たまにVSCodeを使っていた。けど好みのターミナルにできたのだから、次はNeovimに挑戦しようと思っている。</p>
+
+<p><img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3911823/ecf59b1a-244a-046f-ce29-a784a1d96972.png" alt="04-neovim.png" /></p>

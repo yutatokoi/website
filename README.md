@@ -11,6 +11,6 @@ go run main.go
 Convert Markdown files to HTML
 
 ```shell
-python3 
+uv run md2html.py
 ```
 

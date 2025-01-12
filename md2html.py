@@ -1,11 +1,12 @@
 import os
 import yaml
 import markdown2
+from bs4 import BeautifulSoup  # For parsing and modifying HTML
 
 # Paths
 markdown_root = "./templates/writing"
 output_root = "./static/writing"
-index_file = "./templates/writing.html"
+writing_html_path = "./templates/writing.html"
 
 # Ensure the output directory exists
 os.makedirs(output_root, exist_ok=True)
@@ -56,18 +57,27 @@ for root, dirs, files in os.walk(markdown_root):
 # Sort posts by publish date (most recent first)
 posts.sort(key=lambda x: x["publish_date"], reverse=True)
 
-# Generate the index page
-with open(index_file, "w", encoding="utf-8") as f:
-    f.write("<!DOCTYPE html>\n<html lang='en'>\n<head>\n")
-    f.write("<title>Writing</title>\n<link rel='stylesheet' href='../static/styles.css'>\n</head>\n<body>\n")
-    f.write("<h1>My Writings</h1>\n<ul>\n")
+# Parse and update the writing.html file
+with open(writing_html_path, "r", encoding="utf-8") as f:
+    soup = BeautifulSoup(f, "html.parser")
+
+# Locate the <ul> in the <main> section
+ul = soup.find("main").find("ul")
+if ul:
+    # Clear existing list items
+    ul.clear()
+
+    # Add new posts as <li> elements
     for post in posts:
-        f.write(f"<li>\n")
-        f.write(f"  <a href='{post['url']}'>{post['title']}</a>\n")
-        f.write(f"  <span>(Published: {post['publish_date']}")
-        if post['edit_date']:
-            f.write(f", Edited: {post['edit_date']}")
-        f.write(")</span>\n")
-        f.write(f"</li>\n")
-    f.write("</ul>\n</body>\n</html>")
+        li = soup.new_tag("li")
+        a = soup.new_tag("a", href=post["url"])
+        a.string = f"{post['publish_date']}: {post['title']}"
+        li.append(a)
+        if post["edit_date"]:
+            li.append(soup.new_string(f" (Edited: {post['edit_date']})"))
+        ul.append(li)
+
+# Write the updated HTML back to writing.html
+with open(writing_html_path, "w", encoding="utf-8") as f:
+    f.write(str(soup.prettify(formatter="html")))
 

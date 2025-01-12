@@ -1,3 +1,9 @@
+---
+title: "Ghosttyでターミナルをカスタマイズ"
+publishDate: "2024-12-30"
+editDate: ""
+---
+
 自分がブラウザの次に一番使うのがターミナルだ。せっかくなら好みの見た目と使い心地にしたい。そう思い、人生で初めてターミナルをカスタマイズしてみた。
 
 ![01-neofetch.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3911823/f71e0334-09f8-698e-704e-6f452fb0cc14.png)
