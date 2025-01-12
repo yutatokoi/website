@@ -90,20 +90,6 @@ main ul {
     padding-left: 0;
 }
 
-footer {
-    color: var(--footer-text);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-footer a,
-footer a:visited {
-    color: var(--footer-text);
-    text-decoration: underline;
-}
-
 @media (prefers-color-scheme: light) {
     :root {
         --text: #1f2937;
